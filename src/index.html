@@ -1,15 +1,67 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>commit de prueba2</h1>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tag para que  interfaz sea responsiva -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <title>NO ESTAS SOLA</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="container-fluid text-right">
+    <button type="button" class="btn btn-link">https://www.minmujeryeg.gob.cl/</button>
+
+  </header>
+  <div id="root" class="container">
+    <h1 class="text-center">CUENTANOS TU HISTORIA</h1>
+    <section class="main text-justify">
+      <p>Este es un espacio para que te desahogues y puedas contar con nuestra ayuda profesional</p>
+    </section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-5">
+          <textarea id="textArea1" class="col-xs-12 col-md-12 form-control"
+            placeholder="Escribe aquí tu historia con total confianza"></textarea>
+        </div>
+
+        <div class="text-center col-xs-12 col-md-2">
+          <button id="copyResult" class="btn btn-xs btn-warning col-xs-3">
+            <>
+          </button>
+          Desplazamiento<input id="inputOffSet" type="number" class="form-control text-center col-xs-6">
+        </div>
+        <div class="col-xs-12 col-md-5">
+          <textarea id="textArea2" placeholder="Aquí aparecerá tu historia encriptada"
+            class="col-xs-12 col-md-12 form-control"></textarea>
+        </div>
+      </div>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-4  text-center"></div>
+        <div class="col-xs-12 col-md-4  text-center">
+          <button type="button" class="btn btn-secondary" Secondary col-xs-6 col-md-12">encriptar</>
+            <button type="button" class="btn btn-secondary" Secondary col-xs-6 col-md-12">desencriptar</>
+              <button type="button" class="btn btn-info" col-xs-6 col-md-12">borrar</button>
+              <div class="col-xs-12 col-md-4  text-center"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <h6 class="text-center">desarrollado por Rossana Geroldi</h6>
+      </div>
+    </footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
+
+</body>
+
 </html>
