@@ -17,7 +17,7 @@
 
   </header>
   <div id="root" class="container">
-    <h1 class="text-center">CUENTANOS TU HISTORIA</h1>
+    <h1 class="text-center">NO ESTAS SOLA¡ CUENTANOS TU HISTORIA</h1>
     <section class="main text-justify">
       <p>Este es un espacio para que te desahogues y puedas contar con nuestra ayuda profesional</p>
     </section>
@@ -25,42 +25,37 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-5">
-          <textarea id="textArea1" class="col-xs-12 col-md-12 form-control"
+          <textarea id="textForCode" class="col-xs-12 col-md-12 form-control"
             placeholder="Escribe aquí tu historia con total confianza"></textarea>
         </div>
 
         <div class="text-center col-xs-12 col-md-2">
-          <button id="copyResult" class="btn btn-xs btn-warning col-xs-3">
-            <>
-          </button>
-          Desplazamiento<input id="inputOffSet" type="number" class="form-control text-center col-xs-6">
+          tu clave<input id="codeOffset" type="number" class="form-control text-center col-xs-6">
         </div>
         <div class="col-xs-12 col-md-5">
-          <textarea id="textArea2" placeholder="Aquí aparecerá tu historia encriptada"
+          <textarea id="textEncode" placeholder="Aquí aparecerá tu historia encriptada"
             class="col-xs-12 col-md-12 form-control"></textarea>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-4  text-center"></div>
-        <div class="col-xs-12 col-md-4  text-center">
-          <button type="button" class="btn btn-secondary" Secondary col-xs-6 col-md-12">encriptar</>
-            <button type="button" class="btn btn-secondary" Secondary col-xs-6 col-md-12">desencriptar</>
-              <button type="button" class="btn btn-info" col-xs-6 col-md-12">borrar</button>
-              <div class="col-xs-12 col-md-4  text-center"></div>
-        </div>
-      </div>
-    </div>
 
-    <footer>
-      <div>
-        <h6 class="text-center">desarrollado por Rossana Geroldi</h6>
-      </div>
-    </footer>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <div class="row">
+      <div class="col-xs-12 col-md-4  text-center"></div>
+      <button id="codeBtn" class="btn btn-secondary" Secondary col-xs-6 col-md-12">ENCRIPTAR</button>
+      <button id="decodeBtn" class="btn btn-secondary" Secondary col-xs-6 col-md-12">DESENCRIPTAR</button>
+      <button id="cleanBtn" class="btn btn-secondary" Secondary col-xs-6 col-md-12">LIMPIAR</button>
+
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <h6 class="text-center">desarrollado por Rossana Geroldi</h6>
+    </div>
+  </footer>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 
 </body>
 
