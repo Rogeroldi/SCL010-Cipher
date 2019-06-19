@@ -6,15 +6,14 @@ window.cipher = {
 
     for (let i = 0; i <= toEncode.length; i++) {
       let toAscii = toEncode.charCodeAt(i);
-
-      if (toAscii >= 32 && toAscii <= 125) {
-        messageAscii = (toAscii - 32 + offSet) % 94 + 32;
+      //cifrando mayúsculas
+      if (toAscii >= 65 && toAscii <= 90) {
+        messageAscii = (toAscii - 65 + offSet) % 26 + 65;
         messageCode = String.fromCharCode(messageAscii);
         resultCode += messageCode;
       }
     } return resultCode
   },
 
-  decode: (toDecode, offSet) => {
-  }
-};
+  //decode: (toDecode, offSet) => {
+  };

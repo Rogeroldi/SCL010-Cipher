@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <!-- Meta tag para que  interfaz sea responsiva -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
   <meta charset="utf-8">
   <title>NO ESTAS SOLA</title>
 
@@ -14,12 +15,12 @@
 <body>
   <header class="container-fluid text-right">
     <button type="button" class="btn btn-link">https://www.minmujeryeg.gob.cl/</button>
-
   </header>
   <div id="root" class="container">
     <h1 class="text-center">NO ESTAS SOLA¡ CUENTANOS TU HISTORIA</h1>
     <section class="main text-justify">
-      <p>Este es un espacio para que te desahogues y puedas contar con nuestra ayuda profesional</p>
+      <p>Este es un espacio para que te desahogues y puedas contar con nuestra
+        ayuda profesional</p>
     </section>
 
     <div class="container">
@@ -30,24 +31,40 @@
         </div>
 
         <div class="text-center col-xs-12 col-md-2">
-          tu clave<input id="offset" type="number" class="form-control text-center col-xs-6">
+        <input id="offset" type="number" placeholder="tu clave" class="form-control
+              text-center col-xs-6">
         </div>
         <div class="col-xs-12 col-md-5">
-          <textarea id="textEncode" placeholder="Aquí aparecerá tu historia encriptada"
-            class="col-xs-12 col-md-12 form-control"></textarea>
+          <textarea id="textEncode" placeholder="Aquí aparecerá tu historia
+              encriptada" class="col-xs-12 col-md-12 form-control"></textarea>
         </div>
       </div>
     </div>
 
 
     <div class="row">
-      <div class="col-xs-12 col-md-4  text-center"></div>
-      <button id="codeBtn" class="btn btn-secondary" Secondary col-xs-6 col-md-12">ENCRIPTAR</button>
-      <button id="decodeBtn" class="btn btn-secondary" Secondary col-xs-6 col-md-12">DESENCRIPTAR</button>
-      <button id="cleanBtn" class="btn btn-secondary" Secondary col-xs-6 col-md-12">LIMPIAR</button>
+      <div class="col-xs-12 col-md-4 text-center"></div>
+      <button id="codeBtn" class="btn btn-secondary Secondary col-xs-6 col-md-12">ENCRIPTAR</button>
+      <button id="decodeBtn" class="btn btn-secondary Secondary col-xs-6 col-md-12">DESENCRIPTAR</button>
+      <button id="cleanBtn" class="btn btn-secondary Secondary col-xs-6 col-md-12">LIMPIAR</button>
 
     </div>
   </div>
+  <main>
+    <div><span>si necesitas ayuda, nos pondremos en contacto contigo</span>
+      <form action="reg.txt">
+        <input type="text" id="email" placeholder="email">
+        <input type="tel" name="telefono" placeholder="+569XXXXXXXX">
+        <input type="button" id="button" value="envio" onclick="capturar()">
+      </form>
+    </div>
+
+    <div id="section">
+    </div>
+  </main>
+  <section><a href="tel:134">PDI</a><br>
+    <a href="tel:1455">Fono Orientacion violencia contra la mujer</a>
+    </section>
 
   <footer>
     <div>
