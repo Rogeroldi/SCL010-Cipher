@@ -6,8 +6,8 @@ document.getElementById("codeBtn").addEventListener("click", () => {
 });
 
 document.getElementById("decodeBtn").addEventListener("click", () => {
-  const toDecode = document.getElementById("textForCode").value;
+  const toDecode = document.getElementById("textEncode").value;
   const offSet = parseInt(document.getElementById("offset").value);
   let result = cipher.encode(toDecode, offSet);
-  document.getElementById("textForCode").innerHTML = result;
+  document.getElementById("textEncode").innerHTML = result;
 });
