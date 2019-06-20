@@ -23,8 +23,30 @@ window.cipher = {
         resultCode += messageCode;
       }
     } return resultCode
-  }
-
-
-  //decode: (toDecode, offSet) => {
   };
+
+
+  decode: (toDecode, offSet) => {
+    messageAscii;
+    let messageDecode;""
+    for (let i = 0; i <= toDecode.length; i++) {//charCodeAt es un metodo que devuelve un valor unicode  del carácter en el índice especificado.
+      let toAscii = toDecode.charCodeAt(i);
+      //cifrando mayúsculas
+      if (toAscii >= 65 && toAscii <= 90) {
+        messageAscii = (toAscii - 65 + offSet) % 26 + 65;
+        messageDeCode = String.fromCharCode(messageAscii);
+        resultCode += messagedeCode;
+        //cifrando minusculas 32 a 64
+      if (toAscii >= 97 && toAscii <= 122) {
+          messageAscii = (toAscii - 97 + offSet) % 26 + 97;
+          messageDeCode = String.fromCharCode(messageAscii);
+          resultCode += messageDeCode;
+      //cifrando caracteres especiales 97 a 122
+      if (toAscii >= 32 && toAscii <= 64) {
+        messageAscii = (toAscii - 32 + offSet) % 26 + 32;
+        messageDeCode = String.fromCharCode(messageAscii);
+        resultCode += messageDeCode;
+
+  };return resultCode;
+      };
+    }
