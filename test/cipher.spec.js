@@ -10,8 +10,8 @@ describe('cipher', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
 
-    it('debería retornar "NOPQRSTUVWXYZABCDEFGHIJKLM" para "abcdefghijklmnopqrstuvwxyz" con offset 39', () => {
-      assert.equal(cipher.encode(39, "hola marcia"), "UBYNZNEPVN");
+    it('debería retornar "GHIJKLMNOPQRSTUVWXYZABCDEF" para "abcdefghijklmnopqrstuvwxyz" con offset 32', () => {
+      assert.equal(window.cipher.encode(32, "hola marcia"), "NURGSGXIOG");
     });
 
 
