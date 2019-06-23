@@ -27,6 +27,14 @@ window.cipher = {
   let textASCII="";
   let codeAscii="";
   let keyNumber=parseInt(offSet);
+  for(let i=0; i<message.length; i++){
+    textASCII=message.charCodeAt(i);
+    // en el rango de las mayusculas de 65 a 90
+     if (textASCII>=65 && textASCII <=90) {
+      // para descifrar el tope esta en 90
+      codeAscii=(textASCII-90-keyNumber)%26+90;
+      textCipher+=String.fromCharCode(codeAscii);
+    }
 
 
      }
