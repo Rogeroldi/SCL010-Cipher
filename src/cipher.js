@@ -39,8 +39,8 @@ window.cipher = {
      else if(textASCII>=97 && textASCII<122){
       codeAscii=(textASCII-122-keyNumber)%26+122;
       textCipher+=String.fromCharCode(codeAscii);
-
      }
+     
    }
 
 //};
