@@ -23,7 +23,12 @@ window.cipher = {
     return textCipher;
   },
 
-  // decode: (toDecode, offSet) => {}
+   decode:  (offSet,message) => {
+     let textDecipher="";
+     let textToASCII="";
+     let codeASCII="";
+     let keyNumber=parseInt(offSet);
+   }
 
 //};
 
