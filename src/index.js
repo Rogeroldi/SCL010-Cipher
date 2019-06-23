@@ -11,5 +11,5 @@ decodeButton.addEventListener("click", () => {
   let offSetDec = document.getElementById("offset").value;
   let messageDec = document.getElementById("message").value;
   let resultDec = cipher.decode(offSetDec, messageDec);
-  document.getElementById("message").value = result;
+  document.getElementById("message").value = resultDec;
 })

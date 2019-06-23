@@ -7,8 +7,7 @@ window.cipher = {
     let keyNumber = parseInt(offSet);
 
     for (let i = 0; i < message.length; i++) {
-      // charCodeAt() es un metodo que devuelve un valor Unicode
-      // del caracter en el indice proporcionado
+      
       textASCII = message.charCodeAt(i);
 
       // en el rango de las mayusculas
