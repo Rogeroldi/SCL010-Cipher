@@ -1,16 +1,18 @@
 window.cipher = {
-  encode: (toEncode, offSet) => {
-    let ascii;
-    ""; /*guarda el texto cifrado aun en ascii*/
-    let code;
-    ""; /*convierte el ascii en alfabeto normal*/
-    for (let i = 0; i < toEncode.length; i++) {
-      ascii = toEncode[i].charCodeAt();
-      //MINUSCULAS
-      if ((ascii >= 97) && (ascii <= 122)) {
+  encode: (offSet,message) => {
+    let textCipher="";//cada caracer del message
+    let textASCII="";// se ejecutara en el for dando un numero ascii
+    let codeAscii="";//letra que devuelve el texASCII
+    let keyNumber= parseInt(offSet);// let que contiene el numero desplazamiento
 
-        code += String.fromCharCode((ascii - 97 + offSet) % 26 + 97);
-
+    for (let i = 0; i < message.length; i++) {
+      textASCII= message.charCodeAt(i);
+      //MAYUSCULAS, si es true true
+      if (textASCII>=65) && (textASCII<= 90) {
+      //se calcula el  residuo para acotar los ciclos
+        codeAscii= (textASCII-65+keyNumber)%26+65;
+      //se devuelve una cadena de texto a partir de la secuencia anterior 
+        textCipher+= String.fromCharCode(codeAscii);
       }
     }
     return code;
