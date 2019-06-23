@@ -40,7 +40,7 @@ main {
 
 
 .flex-parent {
-  width: 300px;
+  width: 600px;
   background: #FFD6FA;
   border-radius: 10px;
   margin: 25px;
@@ -62,7 +62,7 @@ main {
   display: flex;
   background:#9867D3;
   justify-content: space-around;
-  width: 600px;
+  width: 500px;
   height: 300px;
   margin: auto;
 }
@@ -71,7 +71,7 @@ main {
   background: #FFD6FA;
   color: #231942;
   border-radius: 10px;
-  margin: auto;
+  margin: 20px;
   text-align: center;
   line-height: 20px;
   height: 300px;

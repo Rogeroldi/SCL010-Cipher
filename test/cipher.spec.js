@@ -9,9 +9,9 @@ describe('cipher', () => {
     it('debería ser una función', () => {
       assert.equal(typeof cipher.encode, 'function');
     });
-
-    it('debería retornar "GHIJKLMNOPQRSTUVWXYZABCDEF" para "abcdefghijklmnopqrstuvwxyz" con offset 32', () => {
-      assert.equal(window.cipher.encode(32, "hola marcia"), "NURGSGXIOG");
+    //test de mayusculas
+    it('debería retornar "BCDEFGHIJKLMNOPQRSTUVWXYZA" para "abcdefghijklmnopqrstuvwxyz" con offset 1', () => {
+      assert.equal(cipher.encode(1, "hola ro"), "IPMB SP");
     });
 
 
