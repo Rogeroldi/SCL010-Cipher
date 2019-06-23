@@ -1,52 +1,68 @@
 window.cipher = {
   encode: (toEncode, offSet) => {
-    let messageAscii; /*guarda el texto cifrado aun en Ascii*/
-    let messageCode; /*convierte el Ascii en alfabeto normal*/
-    let resultCode = "";
+    let ascii;
+    ""; /*guarda el texto cifrado aun en ascii*/
+    let code;
+    ""; /*convierte el ascii en alfabeto normal*/
+    for (let i = 0; i < toEncode.length; i++) {
+      ascii = toEncode[i].charCodeAt();
+      //MINUSCULAS
+      if ((ascii >= 97) && (ascii <= 122)) {
 
-    for (let i = 0; i <= toEncode.length; i++) {//charCodeAt es un metodo que devuelve un valor unicode  del carácter en el índice especificado.
-      let toAscii = toEncode.charCodeAt(i);
-      //cifrando mayúsculas
-      if (toAscii >= 65 && toAscii <= 90) {
-        messageAscii = (toAscii - 65 + offSet) % 26 + 65;
-        messageCode = String.fromCharCode(messageAscii);
-        resultCode += messageCode;
-        //cifrando minusculas 32 a 64
-      if (toAscii >= 97 && toAscii <= 122) {
-          messageAscii = (toAscii - 97 + offSet) % 26 + 97;
-          messageCode = String.fromCharCode(messageAscii);
-          resultCode += messageCode;
-      //cifrando caracteres especiales 97 a 122
-      if (toAscii >= 32 && toAscii <= 64) {
-        messageAscii = (toAscii - 32 + offSet) % 26 + 32;
-        messageCode = String.fromCharCode(messageAscii);
-        resultCode += messageCode;
+        code += String.fromCharCode((ascii - 97 + offSet) % 26 + 97);
+
       }
-    } return resultCode
-  };
-
-
-  decode: (toDecode, offSet) => {
-    messageAscii;
-    let messageDecode;""
-    for (let i = 0; i <= toDecode.length; i++) {//charCodeAt es un metodo que devuelve un valor unicode  del carácter en el índice especificado.
-      let toAscii = toDecode.charCodeAt(i);
-      //cifrando mayúsculas
-      if (toAscii >= 65 && toAscii <= 90) {
-        messageAscii = (toAscii - 65 + offSet) % 26 + 65;
-        messageDeCode = String.fromCharCode(messageAscii);
-        resultCode += messagedeCode;
-        //cifrando minusculas 32 a 64
-      if (toAscii >= 97 && toAscii <= 122) {
-          messageAscii = (toAscii - 97 + offSet) % 26 + 97;
-          messageDeCode = String.fromCharCode(messageAscii);
-          resultCode += messageDeCode;
-      //cifrando caracteres especiales 97 a 122
-      if (toAscii >= 32 && toAscii <= 64) {
-        messageAscii = (toAscii - 32 + offSet) % 26 + 32;
-        messageDeCode = String.fromCharCode(messageAscii);
-        resultCode += messageDeCode;
-
-  };return resultCode;
-      };
     }
+    return code;
+  },
+
+  // decode: (toDecode, offSet) => {}
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//   messageascii;
+//   let messageDecode;""
+//   for (let i = 0; i <= toDecode.length; i++) {//charCodeAt es un metodo que devuelve un valor unicode  del carácter en el índice especificado.
+//     let messageascii = toDecode.charCodeAt(i);
+//     //cifrando mayúsculas
+//     if (messageascii >= 65 && messageascii <= 90) {
+//       messageascii = (messageascii - 65 + offSet) % 26 + 65;
+//       messageDeCode = String.fromCharCode(messageascii);
+//       resultCode += messagedeCode;
+//       //cifrando minusculas 32 a 64
+//     if (messageascii >= 97 && messageascii <= 122) {
+//         messageascii = (messageascii - 97 + offSet) % 26 + 97;
+//         messageDeCode = String.fromCharCode(messageascii);
+//         resultCode += messageDeCode;
+//     //cifrando caracteres especiales 97 a 122
+//     if (messageascii >= 32 && messageascii <= 64) {
+//       messageascii = (messageascii - 32 + offSet) % 26 + 32;
+//       messageDeCode = String.fromCharCode(messageascii);
+//       resultCode += messageDeCode;
+
+// };return resultCode;
+//     };
+//   }
