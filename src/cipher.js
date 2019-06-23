@@ -35,7 +35,10 @@ window.cipher = {
       codeAscii=(textASCII-90-keyNumber)%26+90;
       textCipher+=String.fromCharCode(codeAscii);
     }
-
+     // rango de minusculas 97 a 122
+     else if(textASCII>=97 && textASCII<122){
+      codeAscii=(textASCII-122-keyNumber)%26+122;
+      textCipher+=String.fromCharCode(codeAscii);
 
      }
    }
