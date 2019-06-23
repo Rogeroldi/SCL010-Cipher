@@ -28,6 +28,11 @@ window.cipher = {
      let textToASCII="";
      let codeASCII="";
      let keyNumber=parseInt(offSet);
+     for(let i=0; i<message.length; i++){
+       textToASCII=message.charCodeAt(i);
+       console.log(textToASCII)
+       
+     }
    }
 
 //};

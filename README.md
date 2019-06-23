@@ -1,4 +1,26 @@
-# Cifrado César
+# Tú no estas sola!
+Esta es una página de ayuda a las mujeres que han o estan siendo victimas de violencia sexual.
+<a href="https://ibb.co/j830Nwp"><img src="https://i.ibb.co/cy2fB8m/pexels-photo-247314.jpg" alt="pexels-photo-247314" border="0"></a>
+<a href="https://ibb.co/0Y8DfV8"><img src="https://i.ibb.co/dk1WQJ1/pexels-photo-274845.jpg" alt="pexels-photo-274845" border="0"></a><a href="https://ibb.co/59LNqvm"><img src="https://i.ibb.co/hMVPpHb/pexels-photo-556665.jpg" alt="pexels-photo-556665" border="0"></a>
+<a href="https://ibb.co/Z6xQmgm"><img src="https://i.ibb.co/TBtQL0L/pexels-photo-568025.jpg" alt="pexels-photo-568025" border="0"></a>
+<a href="https://ibb.co/tC8hhNC"><img src="https://i.ibb.co/BsqPP7s/pexels-photo-568027.jpg" alt="pexels-photo-568027" border="0"></a>
+<a href="https://ibb.co/gDXvsNC"><img src="https://i.ibb.co/vJrs2p8/pexels-photo-684319.jpg" alt="pexels-photo-684319" border="0"></a>
+<a href="https://ibb.co/NNcS8Mm"><img src="https://i.ibb.co/8x1cWHd/pexels-photo-862848.jpg" alt="pexels-photo-862848" border="0"></a>
+<a href="https://ibb.co/1LB6mwf"><img src="https://i.ibb.co/hyrfmtR/pexels-photo-1435441.jpg" alt="pexels-photo-1435441" border="0"></a>
+<a href="https://ibb.co/1qC4VPw"><img src="https://i.ibb.co/Hzc9vbk/pexels-photo-1645634.jpg" alt="pexels-photo-1645634" border="0"></a>
+
+<a href="https://ibb.co/ggjw1Pk"><img src="https://i.ibb.co/ysf5TYH/pexels-photo-1886694.jpg" alt="pexels-photo-1886694" border="0"></a>
+<a href="https://ibb.co/f0ywv2k"><img src="https://i.ibb.co/MNt06sc/pexels-photo-1988681.jpg" alt="pexels-photo-1988681" border="0"></a>
+<a href="https://ibb.co/rvPXRRJ"><img src="https://i.ibb.co/9GXdkkj/pexels-photo-2470655.jpg" alt="pexels-photo-2470655" border="0"></a>
+<a href="https://ibb.co/KDNttP5"><img src="https://i.ibb.co/zF833Mm/pexels-photo-2474073.jpg" alt="pexels-photo-2474073" border="0"></a>
+<a href="https://ibb.co/8mQMxQ8"><img src="https://i.ibb.co/rQXkpXy/pexels-photo-2527441.jpg" alt="pexels-photo-2527441" border="0"></a>
+<a href="https://ibb.co/2cgXkfZ"><img src="https://i.ibb.co/XFSmCvY/sunset-hands-love-woman.jpg" alt="sunset-hands-love-woman" border="0"></a>
+<a href="https://ibb.co/fYRVc6J"><img src="https://i.ibb.co/qMGLZq6/woman-happiness-sunrise-silhouette-40192.jpg" alt="woman-happiness-sunrise-silhouette-40192" border="0"></a>
+<a href="https://ibb.co/MRZWZX5"><img src="https://i.ibb.co/304G4JY/youth-active-jump-happy-40815.jpg" alt="youth-active-jump-happy-40815" border="0"></a>
+
+
+
+
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
@@ -19,7 +41,7 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 ¿Qué tengo que hacer exactamente? En este proyecto crearás la primera aplicación web del _bootcamp_. Servirá para que el usuario pueda cifrar y descifrar un texto indicando un desplazamiento específico de caracteres (_offset_).
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. 
+La temática es libre. Tú debes pensar en qué situaciones de la vida real se necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc.
 
 Algunas ideas de ejemplo:
 
@@ -221,7 +243,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te 
+   del repo de tu cohort, tus _coaches_ te compartirán un _link_ a un repo y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
