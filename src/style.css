@@ -40,8 +40,12 @@ main {
 
 
 .flex-parent {
+  background-image: url(https://i.ibb.co/8x1cWHd/pexels-photo-862848.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+opacity: .4;
   width: 600px;
-  background: #FFD6FA;
+
   border-radius: 10px;
   margin: 25px;
   text-align: justify;
@@ -53,7 +57,7 @@ main {
   display:flex;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  color:#192A51;
+  color:#0D060F;
   border-right: 2px;
   flex:auto;
  }
