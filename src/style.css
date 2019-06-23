@@ -43,7 +43,7 @@ main {
   background-image: url(https://i.ibb.co/8x1cWHd/pexels-photo-862848.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
-opacity: .4;
+opacity:0.3;
   width: 600px;
 
   border-radius: 10px;
@@ -57,7 +57,7 @@ opacity: .4;
   display:flex;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
-  color:#0D060F;
+  color:#192A51;
   border-right: 2px;
   flex:auto;
  }

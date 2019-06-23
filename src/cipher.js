@@ -65,6 +65,6 @@ window.cipher = {
 
     }
     return textCipher;
-    /* Acá va tu código */
+
   }
 };
