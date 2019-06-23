@@ -8,19 +8,24 @@ window.cipher = {
     for (let i = 0; i < message.length; i++) {
       textASCII= message.charCodeAt(i);
       //MAYUSCULAS, si es true true
-      if (textASCII>=65) && (textASCII<= 90) {
+      if (textASCII>=65 && textASCII<= 90) {
       //se calcula el  residuo para acotar los ciclos
-        codeAscii= (textASCII-65+keyNumber)%26+65;
-      //se devuelve una cadena de texto a partir de la secuencia anterior 
+        codeAscii=(textASCII-65+keyNumber)%26+65;
+      //se devuelve una cadena de texto a partir de la secuencia anterior
         textCipher+= String.fromCharCode(codeAscii);
       }
+      //rango en minuscula 97 a 122
+      else if(textASCII>=97 && textASCII <=122) {
+        codeAscii=(textASCII-97+keyNumber)%26+97;
+        textCipher+=String.fromCharCode(codeAscii);
+      }
     }
-    return code;
+    return textCipher;
   },
 
   // decode: (toDecode, offSet) => {}
 
-};
+//};
 
 
 
