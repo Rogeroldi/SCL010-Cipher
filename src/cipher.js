@@ -36,35 +36,35 @@ window.cipher = {
     return textCipher;
 
   },
-  decode: (offSet, message) => {
-    let textCipher = "";
-    let textASCII = "";
-    let codeAscii = "";
-    let keyNumber = parseInt(offSet);
+  decode: (offSetDec, messageDec) => {
+    let textCipherDec = "";
+    let textASCIIDec = "";
+    let codeAsciiDec = "";
+    let keyNumberDec = parseInt(offSetDec);
 
-    for (let i = 0; i < message.length; i++) {
-      textASCII = message.charCodeAt(i);
+    for (let i = 0; i < messageDec.length; i++) {
+      textASCIIDec = messageDec.charCodeAt(i);
 
       // en el rango de las mayusculas de 65 a 90
-      if (textASCII >= 65 && textASCII <= 90) {
+      if (textASCIIDec >= 65 && textASCIIDec <= 90) {
         // para descifrar el tope esta en 90
-        codeAscii = (textASCII - 90 - keyNumber) % 26 + 90;
-        textCipher += String.fromCharCode(codeAscii);
+        codeAsciiDec = (textASCIIDec - 90 - keyNumberDec) % 26 + 90;
+        textCipherDec += String.fromCharCode(codeAsciiDec);
       }
       // rango de minusculas 97 a 122
-      else if (textASCII >= 97 && textASCII < 122) {
-        codeAscii = (textASCII - 122 - keyNumber) % 26 + 122;
-        textCipher += String.fromCharCode(codeAscii);
+      else if (textASCIIDec >= 97 && textASCIIDec < 122) {
+        codeAsciiDec = (textASCIIDec - 122 - keyNumberDec) % 26 + 122;
+        textCipherDec += String.fromCharCode(codeAsciiDec);
       }
       // números y caracteres especiales
-      else if (textASCII >= 32 && textASCII <= 64) {
-        codeAscii = (textASCII - 64 - keyNumber) % 33 + 64;
-        textCipher += String.fromCharCode(codeAscii);
+      else if (textASCIIDec >= 32 && textASCIIDec <= 64) {
+        codeAsciiDec = (textASCIIDec - 64 - keyNumberDec) % 33 + 64;
+        textCipherDec += String.fromCharCode(codeAsciiDec);
       }
 
 
     }
-    return textCipher;
+    return textCipherDec;
 
   }
 };
