@@ -8,8 +8,8 @@ codeButton.addEventListener("click", () => {
 
 const decodeButton = document.getElementById("decodeButton");
 decodeButton.addEventListener("click", () => {
-  let offSet = document.getElementById("offset").value;
-  let message = document.getElementById("message").value;
-  let result = cipher.decode(offSet, message);
+  let offSetDec = document.getElementById("offset").value;
+  let messageDec = document.getElementById("message").value;
+  let resultDec = cipher.decode(offSetDec, messageDec);
   document.getElementById("message").value = result;
 })
