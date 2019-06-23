@@ -22,16 +22,13 @@ window.cipher = {
     }
     return textCipher;
   },
+  decode: (offSet,message) => {
+  let textCipher="";
+  let textASCII="";
+  let codeAscii="";
+  let keyNumber=parseInt(offSet);
 
-   decode:  (offSet,message) => {
-     let textDecipher="";
-     let textToASCII="";
-     let codeASCII="";
-     let keyNumber=parseInt(offSet);
-     for(let i=0; i<message.length; i++){
-       textToASCII=message.charCodeAt(i);
-       console.log(textToASCII)
-       
+
      }
    }
 
