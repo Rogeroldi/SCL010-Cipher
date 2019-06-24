@@ -1,6 +1,6 @@
 # Tú no estas sola!
 Esta es una página de ayuda a las mujeres que han o estan siendo victimas de violencia sexual.
-alt="pexels-photo-556665" border="0"></a>
+
 <a href="https://ibb.co/Z6xQmgm"><img src="https://i.ibb.co/TBtQL0L/pexels-photo-568025.jpg" alt="pexels-photo-568025" border="0"></a>
 Una p´gina para que no guardes más silencio y puedas pedir ayuda, para mayor confidencialidad en una forma encriptada, podras enviar yy recibir mensajes de un equipo de expertos que te podrá orientar en situaciones de violencia o agresiones sexuales.
 
